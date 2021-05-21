@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700');
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Poppins", sans-serif;
+}
+
+#btn-container{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+button{
+	padding: 12px 24px;
+	margin: 5px;
+	font-weight: 700;
+	font-size: 16px;
+	outline: none;
+	border: 0px;
+	background-color: #00BFA6;
+	color: white;
+	cursor: pointer;
+}
+
+#content-container{
+	background: #EDEBA0;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+svg{
+	margin-top: 15px;
+	width: 80%;
+	height: 300px;
+}
+
+.popbox_container{
+	position: relative;
+	border-radius: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#information{
+	padding: 10px 20px;
+	border-radius: 10px 10px 0px 0px;
+	background: #00BFA6;
+}
+
+#information > p{
+	color: white;
+	font-size: 16px;
+	text-align: left;
+}
+
+#close-btn{
+	position: absolute;
+	right: 20px;
+	color: white;
+	background: #00BFA6;
+	padding: 2px 9px;
+	border-radius: 50%;
+	font-size: 18px;
+	top: 20px;
+	cursor: pointer;
+}
